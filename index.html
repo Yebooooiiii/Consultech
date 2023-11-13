@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Belgium Campus Helper</title>
+</head>
+<body>
+    <div class="main">
+        <div class="page1" align="center" >
+            <div class="navbar container" align="center" >
+<h1>Members of the project</h1>
+
+<a href="#" class="btn btn-primary" id="showPopupButton">Names <i class="fa-solid fa-chevron-right"></i></a>
+
+<div id="textPopup" class="popup" style="display: none;">
+  <p>Petrus Human (PJ) &nbsp 577842 <br>
+Paul-Dieter Brandt &nbsp 600948 <br>
+Bianca Long &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  600476<br>
+Nicole Dube &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 600522<br>
+William Saunderson 600150
+</p>
+  <button id="closePopupButton">Close</button>
+</div>
+            </div>
+            <div class="text container">
+                <div class="content">
+
+                  
+                    
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="faqs container">
+<div style="text-align: center;">
+        <img src="images/information.png" alt="Description of the image" style="width: 100%; max-width: 1000px;">
+    </div>
+<h2>Informtation literacy </h2>
+            <div class="buttons">
+                    <a href="page1.html" class="btn">More information</a>
+                </div>
+<br>
+<div style="text-align: center;">
+        <img src="images/virtual.jpg" alt="Description of the image" style="width: 100%; max-width: 1000px;">
+            <h2>More assistance</h2>
+            <div class="buttons">
+                    <a href="https://huggingface.co/spaces/Paul-Dieter/BelgiumCampusBot" class="btn">Virtual assistant</a>
+                </div>
+        </section>
+
+        <div class="last">
+            
+        </div>
+
+    <footer class="footer">
+  <p>&copy; 2023 Belgium Campus</p>
+  <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+</footer>   
+
+
+    <script>
+        
+      
+document.getElementById("showPopupButton").addEventListener("click", function() {
+  document.getElementById("textPopup").style.display = "block";
+});
+
+document.getElementById("closePopupButton").addEventListener("click", function() {
+  document.getElementById("textPopup").style.display = "none";
+});
+
+    </script>
+</body>
+</html>
